@@ -41,10 +41,10 @@ class VisaNumbers {
                 this.appendCaseNumbers(newCaseNumbers);
 
                 this.caseNumbers = readCaseNumbers;
-
-                this.updateButton.disabled = false;
-                this.updateButton.innerText = 'Update Now';
             }
+
+            this.updateButton.disabled = false;
+            this.updateButton.innerText = 'Update Now';
         });
     }
 
